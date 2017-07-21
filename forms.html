@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+   <title>Forms in HTML</title>
+</head>
+<body>
+   <h1>Motorbyke customer requirement </h1>
+   <form action="backscript">
+      <fieldset>
+         <legend>Customer details</legend>
+         Name: <input type="text" size="35"><br>
+         E-mail: <input type="text" size="50"><br>
+         Phone number: <input type="text" size="15"><br>
+         Date of birth: <input type="text" size="9"><br>
+      </fieldset>
+      <br>
+      <input type="radio" name="sex" value="male">Male<br>
+      <input type="radio" name="sex" value="female">Female<br>
+      <br><br>
+      Select motorbyke manufacturer
+      <br>
+      <select name="bike">
+         <option value="honda">Honda</option>
+         <option value="ducati">Ducati</option>
+         <option value="kawasaki">Kawasaki</option>
+         <option value="yamaha">Yamaha</option>
+         <option value="triumph">Triumph</option>
+      </select>
+      <br><br>
+      <input type="button" value="Submit">
+   </form>
+   <hr>
+   <h2>Customer Feedback</h2>
+   <form action="MAILTO:paulo@pauloilarde.com" method="post" enctype="text/plain">
+      Name: <input type="text" name="name" value="Please enter your name"><br>
+      E-mail: <input type="text" name="mail" size="50" value="Please enter your e-mail address"><br><br>
+      <textarea cols="40" rows="5" name="Comments:::">Please type your feedback</textarea>
+
+      <br>
+      <input type="submit" value="Send">
+      <input type="reset" value="Reset">
+   </form>
+</body>
+</html>
