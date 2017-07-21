@@ -1,0 +1,23 @@
+   <!DOCTYPE html>
+   <html>
+      <head>
+         <meta charset="utf-8">
+         <title>Datalist: the new form attribute</title>
+      </head>
+      <body>
+         <h1>The datalist attribute</h1>
+         <p><em>Genres of music</em></p>
+         <div>
+            <label for="packt">Music : </label>
+            <input id="packt" type="text" name="packt" list="music" />
+            <input type="submit" value="Go">
+            <datalist id="music">
+               <option value="Pop"></option>
+               <option value="Rock"></option>
+               <option value="Jazz"></option>
+               <option value="Blues"></option>
+               <option value="Classical"></option>
+            </datalist>
+         </div>
+      </body>
+   </html>
